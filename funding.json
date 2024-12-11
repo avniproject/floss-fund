@@ -1,0 +1,59 @@
+{
+  "version": "v1.0.0",
+  "entity": {
+    "type": "organisation",
+    "role": "owner",
+    "name": "Samanvay Research and Development Foundation",
+    "email": "hello@samanvayfoundation.org",
+    "phone": "",
+    "description": "Samanvay Foundation builds and runs products relevant to the social sector",
+    "webpageUrl": {
+      "url": "https://samanvayfoundation.org",
+      "wellKnown": "https://www.samanvayfoundation.org/.well-known/funding-manifest-urls"
+    }
+  },
+  "projects": [{
+    "guid": "avni",
+    "name": "Avni",
+    "description": "The Avni Project is an open-source platform designed to enable organizations working in health, education, livelihoods, and other sectors to manage fieldwork operations efficiently. Avni stands out as a versatile, user-centric solution tailored for managing and tracking community-based programs, especially in resource-constrained environments. The primary goal of Avni is to bridge the gap between field-level data collection and program management by offering a customizable and scalable platform. It is built to cater to the unique requirements of each organization, providing tools for data collection, program monitoring, reporting, and decision-making. ",
+    "webpageUrl": {
+      "url": "https://avniproject.org",
+      "wellKnown": "https://avniproject.org/.well-known/funding-manifest-urls"
+    },
+    "repositoryUrl": {
+      "url": "https://github.com/avniproject",
+      "wellKnown": "https://avniproject.org/.well-known/funding-manifest-urls"
+    },
+    "licenses": ["spdx:AGPL-3.0-only"],
+    "tags": ["data-collection", "case-management", "offline-ready", "multilingual", "android", "health"]
+  }],
+
+  "funding": {
+    "channels": [{
+      "guid": "HDFC",
+      "type": "bank",
+      "description": "Please email for details"
+    }],
+    "plans": [{
+      "guid": "hosting",
+      "status": "active",
+      "name": "Development hosting",
+      "description": "This supports hosting for non-production servers for a month",
+      "amount": 50000,
+      "currency": "INR",
+      "frequency": "monthly",
+      "channels": ["HDFC"]
+    },
+      {
+        "guid": "sponsor-a-developer",
+        "status": "active",
+        "name": "Sponsor a Developer",
+        "description": "This supports costs for one developer for one year",
+        "amount": 2400000,
+        "currency": "INR",
+        "frequency": "yearly",
+        "channels": ["HDFC"]
+      }]
+  }
+}
+
