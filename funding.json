@@ -9,7 +9,7 @@
     "description": "Samanvay Foundation builds and runs products relevant to the social sector",
     "webpageUrl": {
       "url": "https://samanvayfoundation.org",
-      "wellKnown": "https://www.samanvayfoundation.org/.well-known/funding-manifest-urls"
+      "wellKnown": "https://samanvayfoundation.org/.well-known/funding-manifest-urls"
     }
   },
   "projects": [{
@@ -21,8 +21,7 @@
       "wellKnown": "https://avniproject.org/.well-known/funding-manifest-urls"
     },
     "repositoryUrl": {
-      "url": "https://github.com/avniproject",
-      "wellKnown": "https://avniproject.org/.well-known/funding-manifest-urls"
+      "url": "https://github.com/avniproject"
     },
     "licenses": ["spdx:AGPL-3.0-only"],
     "tags": ["data-collection", "case-management", "offline-ready", "multilingual", "android", "health"]
@@ -30,7 +29,7 @@
 
   "funding": {
     "channels": [{
-      "guid": "HDFC",
+      "guid": "hdfc",
       "type": "bank",
       "description": "Please email for details"
     }],
@@ -42,7 +41,7 @@
       "amount": 50000,
       "currency": "INR",
       "frequency": "monthly",
-      "channels": ["HDFC"]
+      "channels": ["hdfc"]
     },
       {
         "guid": "sponsor-a-developer",
@@ -52,7 +51,7 @@
         "amount": 2400000,
         "currency": "INR",
         "frequency": "yearly",
-        "channels": ["HDFC"]
+        "channels": ["hdfc"]
       }]
   }
 }
