@@ -12,37 +12,52 @@
       "wellKnown": "https://samanvayfoundation.org/.well-known/funding-manifest-urls"
     }
   },
-  "projects": [{
-    "guid": "avni",
-    "name": "Avni",
-    "description": "The Avni Project is an open-source platform designed to enable organizations working in health, education, livelihoods, and other sectors to manage fieldwork operations efficiently. Avni stands out as a versatile, user-centric solution tailored for managing and tracking community-based programs, especially in resource-constrained environments. The primary goal of Avni is to bridge the gap between field-level data collection and program management by offering a customizable and scalable platform. It is built to cater to the unique requirements of each organization, providing tools for data collection, program monitoring, reporting, and decision-making. ",
-    "webpageUrl": {
-      "url": "https://avniproject.org",
-      "wellKnown": "https://avniproject.org/.well-known/funding-manifest-urls"
-    },
-    "repositoryUrl": {
-      "url": "https://github.com/avniproject"
-    },
-    "licenses": ["spdx:AGPL-3.0-only"],
-    "tags": ["data-collection", "case-management", "offline-ready", "multilingual", "android", "health"]
-  }],
-
+  "projects": [
+    {
+      "guid": "avni",
+      "name": "Avni",
+      "description": "The Avni Project is an open-source platform designed to enable organizations working in health, education, livelihoods, and other sectors to manage fieldwork operations efficiently. Avni stands out as a versatile, user-centric solution tailored for managing and tracking community-based programs, especially in resource-constrained environments. The primary goal of Avni is to bridge the gap between field-level data collection and program management by offering a customizable and scalable platform. It is built to cater to the unique requirements of each organization, providing tools for data collection, program monitoring, reporting, and decision-making. ",
+      "webpageUrl": {
+        "url": "https://avniproject.org",
+        "wellKnown": "https://avniproject.org/.well-known/funding-manifest-urls"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/avniproject"
+      },
+      "licenses": [
+        "spdx:AGPL-3.0-only"
+      ],
+      "tags": [
+        "data-collection",
+        "case-management",
+        "offline-ready",
+        "multilingual",
+        "android",
+        "health"
+      ]
+    }
+  ],
   "funding": {
-    "channels": [{
-      "guid": "hdfc",
-      "type": "bank",
-      "description": "Please email for details"
-    }],
-    "plans": [{
-      "guid": "hosting",
-      "status": "active",
-      "name": "Development hosting",
-      "description": "This supports hosting for non-production servers for a month",
-      "amount": 50000,
-      "currency": "INR",
-      "frequency": "monthly",
-      "channels": ["hdfc"]
-    },
+    "channels": [
+      {
+        "guid": "hdfc",
+        "type": "bank",
+        "description": "Please email for details"
+      }
+    ],
+    "plans": [
+      {
+        "guid": "hosting",
+        "status": "active",
+        "name": "Development hosting",
+        "description": "This supports hosting for non-production servers for a month",
+        "amount": 50000,
+        "currency": "INR",
+        "frequency": "monthly",
+        "channels": [
+          "hdfc"
+        ]
+      },
       {
         "guid": "sponsor-a-developer",
         "status": "active",
@@ -51,8 +66,34 @@
         "amount": 2400000,
         "currency": "INR",
         "frequency": "yearly",
-        "channels": ["hdfc"]
-      }]
+        "channels": [
+          "hdfc"
+        ]
+      },
+      {
+        "guid": "city-meetups",
+        "status": "active",
+        "name": "City Meetups",
+        "description": "The idea behind city meetups is to go to cities where there are existing Avni implementations and hold meetings where we invite NGOs who will benefit from the digitisation of their data. The hope is to increase the number of organisations that adopt digitisation through Avni. The funding covers personnel time (2-3 people from Samanvay), travel, food and accommodation and space for five city meetups",
+        "amount": 900000,
+        "currency": "INR",
+        "frequency": "yearly",
+        "channels": [
+          "hdfc"
+        ]
+      },
+      {
+        "guid": "ngo-visits",
+        "status": "active",
+        "name": "NGO Visits",
+        "description": "NGO visits are necessary to understand their challenges and needs from close quarters and will help us build technology solutions which address their concerns. This will cover 5 NGO visits at one team-member per visit.",
+        "amount": 675000,
+        "currency": "INR",
+        "frequency": "yearly",
+        "channels": [
+          "hdfc"
+        ]
+      }
+    ]
   }
 }
-
