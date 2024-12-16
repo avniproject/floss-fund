@@ -8,8 +8,8 @@
     "phone": "",
     "description": "Samanvay Foundation builds and runs products relevant to the social sector",
     "webpageUrl": {
-      "url": "https://samanvayfoundation.org",
-      "wellKnown": "https://samanvayfoundation.org/.well-known/funding-manifest-urls"
+      "url": "https://avniproject.org/samanvay-foundation",
+      "wellKnown": "https://avniproject.org/.well-known/funding-manifest-urls"
     }
   },
   "projects": [
