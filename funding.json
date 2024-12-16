@@ -16,7 +16,7 @@
     {
       "guid": "avni",
       "name": "Avni",
-      "description": "The Avni Project is an open-source platform designed to enable organizations working in health, education, livelihoods, and other sectors to manage fieldwork operations efficiently. Avni stands out as a versatile, user-centric solution tailored for managing and tracking community-based programs, especially in resource-constrained environments. The primary goal of Avni is to bridge the gap between field-level data collection and program management by offering a customizable and scalable platform. It is built to cater to the unique requirements of each organization, providing tools for data collection, program monitoring, reporting, and decision-making. ",
+      "description": "Avni is an open source community-service and data collection platform meant for non profits. Over the past years, it has been used across more than 50 different implementations, and has been used to facilitate over 5 million field-worker visits. A few of these projects have gone to state level implementations as well. Avni is registered with the Digital Public Goods Alliance as a DPG (https://app.digitalpublicgoods.net/a/11093)",
       "webpageUrl": {
         "url": "https://avniproject.org",
         "wellKnown": "https://avniproject.org/.well-known/funding-manifest-urls"
