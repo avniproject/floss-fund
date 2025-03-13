@@ -95,7 +95,7 @@
         ]
       },
       {
-        "guid": "ai-supported-project-implementation",
+        "guid": "ai-supported-project",
         "status": "active",
         "name": "AI Supported Project Implementation",
         "description": "AI can be used to improve productivity of software team that delivers projects on Avni platform. This will reduce cost of project implementation and make avni further affordable for NGOs who have lower budgets. This will cover costs for one engineer for one year.",
